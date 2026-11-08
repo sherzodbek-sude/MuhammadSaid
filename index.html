@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Muhammad Said Jabboraliyev — shaxsiy portfolio.">
+  <title>Muhammad Said Jabboraliyev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#home">MS<span>.</span></a>
+  <nav id="nav"><a href="#home">Bosh sahifa</a><a href="#about">Men haqimda</a><a href="#gallery">Galereya</a><a href="#contact">Aloqa</a></nav>
+  <a class="header-contact" href="#contact">Bog‘lanish <span>↗</span></a>
+  <button class="menu" id="menu" aria-label="Menyuni ochish"><i></i><i></i></button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><span></span> SHAXSIY PORTFOLIO</div>
+    <p class="hello">Salom, men</p>
+    <h1>Muhammad Said<br><em>Jabboraliyev.</em></h1>
+    <p class="intro">Shaxsiy sahifamga xush kelibsiz. Bu yerda men haqimdagi qisqacha ma’lumotlar va sevimli suratlarim jamlangan.</p>
+    <div class="actions"><a class="primary" href="#gallery">Galereyani ko‘rish <b>↘</b></a><a class="secondary" href="#about">Men haqimda <b>↗</b></a></div>
+    <div class="quick-info"><span><b>2008</b><small>TUG‘ILGAN YIL</small></span><i></i><span><b>26</b><small>FOTO JOYI</small></span></div>
+  </div>
+  <div class="hero-photo-wrap">
+    <div class="hero-photo">
+      <div class="monogram">MS<span>.</span></div>
+      <small>PROFIL SURATINGIZ</small>
+    </div>
+    <div class="photo-label">MUHAMMAD SAID J. <span>01 / PROFILE</span></div>
+    <div class="photo-accent"></div>
+  </div>
+  <div class="hero-bottom"><span>TASHKENT · UZBEKISTAN</span><a href="#about">PASTGA <b>↓</b></a></div>
+</section>
+
+<section class="about section" id="about">
+  <div class="section-label"><span>01</span> MEN HAQIMDA</div>
+  <div class="about-content">
+    <h2>O‘zim haqimda<br><em>qisqacha.</em></h2>
+    <div class="about-detail">
+      <p class="lead">Salom! Men Muhammad Said Jabboraliyev.</p>
+      <p>Bu mening shaxsiy portfolio sahifam. Bu yerda o‘zim haqimdagi ma’lumotlar va men uchun qadrli suratlarni jamlayman. Sahifani yangi ma’lumotlar bilan yangilab borishim mumkin.</p>
+      <div class="facts"><div><small>ISM</small><b>Muhammad Said</b></div><div><small>FAMILIYA</small><b>Jabboraliyev</b></div><div><small>TUG‘ILGAN YIL</small><b>2008</b></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery section" id="gallery">
+  <div class="section-label"><span>02</span> FOTO GALEREYA</div>
+  <div class="gallery-head"><div><h2>Tanlangan <em>lahzalar.</em></h2><p>Surat ustiga bosing — kattalashtirib ko‘ring.</p></div><div class="total"><b>26</b><small>PHOTOS</small></div></div>
+  <div class="gallery-grid" id="galleryGrid"></div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="section-label"><span>03</span> ALOQA</div>
+  <div class="contact-row"><div><p class="eyebrow">BOG‘LANISH</p><h2>Har doim<br><em>aloqada.</em></h2></div><div class="contact-side"><p>Ijtimoiy tarmoqlarim orqali bog‘lanishingiz mumkin.</p><div class="socials"><a href="#" target="_blank" rel="noopener">Instagram <b>↗</b></a><a href="#" target="_blank" rel="noopener">Telegram <b>↗</b></a></div></div></div>
+</section>
+</main>
+
+<footer><a class="brand" href="#home">MS<span>.</span></a><span>© <span id="year"></span> MUHAMMAD SAID JABBORALIYEV</span><a href="#home">YUQORIGA ↑</a></footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="close" id="close" aria-label="Yopish">×</button>
+  <button class="arrow prev" id="prev" aria-label="Oldingi surat">‹</button>
+  <figure><img id="lightboxImg" alt="Galereya surati"><figcaption id="caption"></figcaption></figure>
+  <button class="arrow next" id="next" aria-label="Keyingi surat">›</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
